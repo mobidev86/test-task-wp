@@ -1,0 +1,94 @@
+.woocommerce_page_order-tags-report .wrap,
+.woocommerce_page_sales-products-tracking-system .wrap,
+.woocommerce_page_sales-tags-tracking-system .wrap {
+    margin: 0px;
+    margin-left: -20px;
+}
+
+.woocommerce_page_order-tags-report .wrap h2,
+.woocommerce_page_sales-products-tracking-system .wrap h2,
+.woocommerce_page_sales-tags-tracking-system .wrap h2 {
+    padding-left: 10px !important;
+    display: flex;
+    align-items: center;
+    padding-left: 40px !important;
+    height: 60px;
+    background: #fff;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.woocommerce_page_order-tags-report .wrap-filters {
+    margin: 40px 0px 0px 40px;
+}
+
+.woocommerce_page_order-tags-report .ltags {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.woocommerce_page_order-tags-report .button-primary {
+    display: block !important;
+    margin-top: 20px !important;
+}
+
+.order-data-wrap .canvas {
+    margin: 40px;
+}
+
+.order-data-wrap .orders {
+    display: grid;
+    grid-gap: 12px;
+    grid-template-columns: min-content 1fr min-content;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: row;
+    gap: calc(8px);
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-top-color: rgba(0, 0, 0, 0.1);
+    border-right-color: rgba(0, 0, 0, 0.1);
+    border-left-color: rgba(0, 0, 0, 0.1);
+    padding: calc(16px) calc(24px);
+}
+
+.order-data-wrap .table {
+    background-color: rgb(255, 255, 255);
+    color: rgb(30, 30, 30);
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 0px 1px;
+    outline: none;
+    border-radius: calc(1px);
+    margin: 40px !important;
+}
+
+.order-data-wrap .widefat thead td {
+    font-weight: 800;
+    text-align: center;
+}
+
+.order-data-wrap .widefat td {
+    text-align: center;
+}
+
+.order-data-wrap .widefat td a {
+    font-weight: 600;
+}
+
+.order-data-wrap label {
+    vertical-align: unset;
+    margin-right: 10px;
+}
+
+.order-data-wrap .striped>tbody>:nth-child(odd) {
+    background-color: #f6f7f7;
+}
+
+.woocommerce_page_sales-products-tracking-system .order-data-wrap .canvas {
+    margin: 40px 40px 0px 0px;
+    margin-left: -20px !important;
+}
